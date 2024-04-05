@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th?id=OIP.QXYu8JqMdwfnNnAlDTuoGQHaFN&w=298&h=209&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');
+    background-size: cover;
+}
+.container
+{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+.inputs
+{
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(224, 190, 193);
+    height: auto;
+    overflow: hidden;
+}
+.inputs input[type="text"]
+{
+    height: 4rem;
+    width: calc(100% - 145px);
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.inputs input[type="submit"]
+{
+    height: 3rem;
+    width: 5rem;
+    background: #270aca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-left: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.display
+{
+    text-align: center;
+    width: 515px;
+    color: #16a864;
+}
+.wrapper
+{
+    margin: 0 9rem;
+    background-color: rgb(172, 189, 221);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+
+}
+.wrapper h2
+{
+    padding: 5px 0;
+    text-align: center;
+    background: #0548b5;
+    color: white;
+}
+.wrapper p
+{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+}
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: #9beefb;    
+}
+.wrapper p span
+{
+    color: #5e0df4;
+    font-size: 25px;
+}
